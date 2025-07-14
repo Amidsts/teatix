@@ -1,0 +1,15 @@
+Audio to text, can take a video or audio
+
+Tools
+
+- Python 3.8+
+- FFmpeg (for audio extraction)
+- Whisper (OpenAI) – Best open-source speech-to-text model.
+- (Optional) PyTorch/CUDA (for GPU acceleration)
+
+System Architecture
+If file is Video, extract audio from video else if Audio use it like that
+Transcribe audio into text
+Generate a concise summary
+
+text to speech teatiex
