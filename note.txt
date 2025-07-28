@@ -1,3 +1,5 @@
+------- ABOUT
+
 Audio to text, can take a video or audio
 
 Tools
@@ -13,3 +15,11 @@ Transcribe audio into text
 Generate a concise summary
 
 text to speech teatiex
+
+----------- SETUP -------------------------
+- clone the project => git clone <repo url>
+- python3 -m venv  venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- if you installed other packages after generating requirements.txt, run "pip freeze > requirements.txt"
+- add environment variable to .env file

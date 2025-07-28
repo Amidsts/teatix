@@ -6,7 +6,7 @@ import string
 import random
 
 
-def audioToText (audioFileLocation: str):
+def audioToText(audioFileLocation: str):
     aai.settings.api_key = Config.ASSEMBLY_AI_API_KEY
 
     config = aai.TranscriptionConfig(speech_model=aai.SpeechModel.best)

@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 class Config:
     ALLOWED_AUDIO_MIMETYPE = {'mp4', 'mkv', 'mov', 'gif'}
